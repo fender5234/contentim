@@ -1,0 +1,41 @@
+@import "common/variables";
+
+@import "common/mixins/graphic";
+@import "common/mixins/interactive";
+@import "common/mixins/media";
+@import "common/mixins/visibility";
+
+@import "common/fonts";
+@import "common/global";
+
+@import "blocks/page";
+@import "blocks/header";
+@import "blocks/menu-button";
+@import "blocks/logo-link";
+@import "blocks/hero";
+@import "blocks/cases";
+@import "blocks/js-choice";
+@import "blocks/splide";
+@import "blocks/features";
+@import "blocks/lifehack";
+@import "blocks/footer";
+@import "blocks/visually-hidden";
+@import "blocks/form";
+@import "blocks/about-cases";
+@import "blocks/list-title";
+@import "blocks/case-list";
+@import "blocks/description-container";
+@import "blocks/requirements";
+@import "blocks/instruments-list";
+@import "blocks/solution-container";
+@import "blocks/rewiews-container";
+@import "blocks/feedback";
+@import "blocks/order";
+@import "blocks/catalog";
+@import "blocks/clients";
+@import "blocks/slider-progres-bar";
+@import "blocks/doings";
+@import "blocks/command";
+@import "blocks/videos";
+@import "blocks/question";
+@import "common/utils";

@@ -1,0 +1,23 @@
+.clients {
+	padding: 15px;
+}
+
+.clients__title {
+  margin: 0 0 14px;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: normal;
+	font-family: "Rubik-Bold", sans-serif;
+	color: #001767;
+}
+
+.clients__slide-wrapper {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+  grid-gap: 12px;
+}
+
+.clients__slide-image {
+	border: 1px solid #ced4da;
+	border-radius: 10px;
+}

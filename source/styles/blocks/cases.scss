@@ -1,0 +1,123 @@
+.cases_container {
+	padding: 24px 15px;
+}
+
+.cases_select {
+	display: flex;
+	justify-content: flex-start;
+	margin: 0 0 24px;
+}
+
+.cases_select-span {
+	margin-right: 6px;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	font-family: "Rubik-Regular", sans-serif;
+	color: #111111;
+}
+
+.cases_title {
+	margin: 0 0 24px;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: normal;
+	font-family: "Rubik-Bold", sans-serif;
+	color: #001767;
+}
+
+.cases_sapmple-mark {
+	position: absolute;
+	top: 12px;
+	left: 12px;
+	padding: 6px 12px;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 14px;
+	font-family: "Rubik-Regular", sans-serif;
+	color: #00186b;
+	background: rgba(255, 255, 255, 0.8);
+	border-radius: 4px;
+}
+
+.cases_wrapper-image {
+	position: relative;
+	margin-bottom: 10px;
+}
+
+.cases_sapmple-title {
+	margin: 0 0 6px;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: normal;
+	font-family: "Rubik-Bold", sans-serif;
+	color: #111111;
+
+	&--slider {
+		font-size: 16px;
+		line-height: 125%;
+	}
+}
+
+.cases_sample-subtitle {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 125%;
+	font-family: "Rubik-Regular", sans-serif;
+	color: #111111;
+
+	&--slider {
+		font-size: 14px;
+	}
+}
+
+.cases_order {
+	margin: 25px 0;
+	padding: 90px 15px;
+	background: radial-gradient(
+			163.47% 97.18% at 0% -20.78%,
+			rgba(5, 32, 125, 0.4) 0%,
+			rgba(0, 18, 80, 0) 100%
+		),
+		radial-gradient(
+			827.28% 167.67% at 89.14% -46.15%,
+			rgba(50, 120, 255, 0.6) 0%,
+			rgba(72, 118, 208, 0) 100%
+		),
+		#1f42c1;
+}
+
+.cases_order-title {
+	margin: 0 0 20px;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: normal;
+	font-family: "Rubik-Bold", sans-serif;
+	text-align: center;
+	color: #ffffff;
+}
+
+.cases_order-subtitle {
+	margin: 0 0 20px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 22px;
+	font-family: "Rubik-Regular", sans-serif;
+	text-align: center;
+	color: #ffffff;
+}
+
+.cases_order-link {
+	display: block;
+	max-width: 240px;
+	margin: 0 auto;
+	padding: 12px 20px;
+	font-weight: 700;
+	font-size: 16px;
+	text-decoration: none;
+	text-align: center;
+	color: #2747b9;
+	background-color: #ffffff;
+	border-radius: 10px;
+	box-shadow: 0 15px 30px -18px rgba(0, 0, 0, 0.5);
+}

@@ -1,0 +1,34 @@
+.rewiews-container__content {
+  margin: 0 0 48px;
+}
+
+.rewiews-container__text {
+  margin: 0 0 24px;
+  padding-top: 25px;
+  font-weight: 400;
+	font-size: 16px;
+	line-height: normal;
+	font-family: "Rubik-Regular", sans-serif;
+  background-image: url('../images/quotes.svg');
+  background-repeat: no-repeat;
+  background-position: 96% 1%;
+}
+
+.rewiews-container__author {
+  display: flex;
+}
+
+.rewiews-container__author-name {
+	margin: 0;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: normal;
+	font-family: "Rubik-Bold", sans-serif;
+}
+
+.rewiews-container__author-role {
+  font-weight: 400;
+	font-size: 14px;
+	line-height: normal;
+	font-family: "Rubik-Regular", sans-serif;
+}

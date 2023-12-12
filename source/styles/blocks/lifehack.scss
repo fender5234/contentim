@@ -1,0 +1,48 @@
+.lifehack {
+  margin-bottom: 36px;
+}
+
+.lifehack_wrapper {
+	display: flex;
+  margin-bottom: 24px;
+}
+
+.lifehack_image {
+	width: 76px;
+	height: 76px;
+	border-radius: 10px;
+}
+
+.lifehack_wrapper-item {
+  margin-left: 25px;
+}
+
+.lifehack_span {
+	display: inline-block;
+	margin: 0 0 12px;
+	padding: 6px 12px;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 12px;
+	font-family: "Rubik-Regular", sans-serif;
+	text-align: center;
+	color: #ffffff;
+	background-color: #2747b9;
+	border-radius: 4px;
+}
+
+.lifehack_title {
+	margin: 0 0 6px;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 125%;
+	font-family: "Rubik-Bold", sans-serif;
+}
+
+.lifehack_text {
+	margin: 0;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 125%;
+	font-family: "Rubik-Regular", sans-serif;
+}

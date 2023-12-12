@@ -1,0 +1,63 @@
+.feedback {
+	padding: 90px 15px;
+	background: radial-gradient(
+			234.38% 214.15% at -4.53% 118.8%,
+			rgba(5, 32, 125, 0.4) 0%,
+			rgba(0, 18, 80, 0) 100%
+		),
+		radial-gradient(
+			472.19% 184.48% at 88.1% 107.77%,
+			rgba(50, 120, 255, 0.6) 0%,
+			rgba(72, 118, 208, 0) 100%
+		),
+		#1f42c1;
+}
+
+.feedback__text {
+	margin: 0 0 20px;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: normal;
+	font-family: "Rubik-Bold", sans-serif;
+	text-align: center;
+	color: #ffffff;
+}
+
+.feedback__subtext {
+	margin: 0 0 20px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 22px;
+	font-family: "Rubik-Bold", sans-serif;
+	text-align: center;
+	color: #ffffff;
+}
+
+.feedback__soc-list {
+  display: flex;
+  justify-content: center;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.feedback__soc-link {
+	display: block;
+	width: 60px;
+	height: 50px;
+	background-repeat: no-repeat;
+	background-position: center;
+
+	&--tg {
+		background-image: url("../images/tg-feedback.svg");
+	}
+
+	&--mail {
+    margin: 0 35px;
+		background-image: url("../images/email-simbol.svg");
+	}
+
+	&--phone {
+		background-image: url("../images/phone.svg");
+	}
+}

@@ -1,0 +1,22 @@
+.requirements-container__list {
+	margin: 0 0 48px;
+	padding: 0;
+	list-style: none;
+}
+
+.requirements-container__list li {
+	display: flex;
+	align-items: baseline;
+	margin: 0 0 15px;
+	padding: 12px 24px;
+	background-color: #ffffff;
+	border-radius: 10px;
+}
+
+.requirements-container__list-span {
+	margin-right: 10px;
+}
+
+.requirements-container__list-text {
+	margin: 0;
+}

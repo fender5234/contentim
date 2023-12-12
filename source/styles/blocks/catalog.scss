@@ -1,0 +1,99 @@
+.catalog {
+	padding: 47px 15px;
+}
+
+.catalog__title {
+	max-width: 90%;
+	margin: 0 0 24px;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: normal;
+	font-family: "Rubik-Bold", sans-serif;
+	color: #001767;
+}
+
+.catalog__list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.catalog__list-item {
+  position: relative;
+  margin: 0 0 24px;
+	padding: 11px 24px;
+	border: 1px solid #1534a1;
+	border-radius: 10px;
+
+	&::after {
+		content: "";
+		position: absolute;
+		top: 15px;
+		right: 20px;
+		width: 20px;
+		height: 20px;
+		background-image: url("../images/accordeon.svg");
+		background-repeat: no-repeat;
+	}
+}
+
+.catalog__list-item-title {
+	margin: 0 20px 0 0;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: normal;
+	font-family: "Rubik-Regular", sans-serif;
+}
+
+.catalog__list-item-text-wrapper {
+  display: none;
+
+  &--active {
+    display: block;
+  }
+}
+
+.catalog__list-item-text {
+	margin: 0 0 10px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: normal;
+	font-family: "Rubik-Regular", sans-serif;
+
+	&:first-child {
+		margin-top: 24px;
+	}
+}
+
+.catalog__list-button {
+	display: block;
+	width: 100%;
+	margin: 24px 0 0;
+	padding: 12px 24px;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 24px;
+	font-family: "Rubik-Bold", sans-serif;
+	color: #ffffff;
+	background-color: #1534a1;
+	border: none;
+	border-radius: 10px;
+	box-shadow: 0 15px 30px -18px rgba(0, 0, 0, 0.3);
+}
+
+.catalog__list-link {
+	display: block;
+	margin: 12px 0 0;
+	padding: 12px 24px;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 24px;
+	font-family: "Rubik-Bold", sans-serif;
+  text-decoration: none;
+  text-align: center;
+	color: #1534a1;
+	background-color: #ffffff;
+  border: 1px solid #1534a1;
+	border-radius: 10px;
+	box-shadow: 0 15px 30px -18px rgba(0, 0, 0, 0.3);
+}
