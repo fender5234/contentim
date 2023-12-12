@@ -1,5 +1,5 @@
 .command {
-  padding: 48px 15px;
+	padding: 48px 15px;
 }
 
 .command__title {
@@ -8,85 +8,85 @@
 	font-size: 30px;
 	line-height: normal;
 	font-family: "Rubik-Bold", sans-serif;
-  color: #001767;
+	color: #001767;
 }
 
 .command__selected-wrapper {
-  margin: 0 0 24px;
+	margin: 0 0 24px;
 }
 
 .command__list {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin: 0;
-  padding: 0;
-  list-style: none;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin: 0;
+	padding: 0;
+	list-style: none;
 }
 
 .command__image-wrapper {
-  margin-bottom: 12px;
+	margin-bottom: 12px;
 }
 
 .command__list-image {
-  width: 129px;
-  height: 129px;
+	width: 129px;
+	height: 129px;
 }
 
 .command__list li {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 10px;
 }
 
 .command__list-name {
-  margin: 0;
-  font-weight: 400;
+	margin: 0;
+	font-weight: 400;
 	font-size: 16px;
 	line-height: 22px;
 	font-family: "Rubik-Regular", sans-serif;
-  text-align: center;
+	text-align: center;
 }
 
 .command__list-role {
-  display: block;
-  margin: 0 0 18px;
+	display: block;
+	margin: 0 0 18px;
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 22px;
 	font-family: "Rubik-Bold", sans-serif;
-  text-align: center;
-  color: #535455;
+	text-align: center;
+	color: #535455;
 }
 
 .command__list-author-cite {
-  display: none;
-  margin: 0 0 18px;
+	display: none;
+	margin: 0 0 18px;
 	font-weight: 400;
-  font-style: italic;
+	font-style: italic;
 	font-size: 16px;
 	line-height: 22px;
 	font-family: "Rubik-Regular", sans-serif;
 }
 
 .command__text {
-  font-style: italic;
-  font-size: 14px;
-  text-align: center;
-  color: #00186B;
+	font-style: italic;
+	font-size: 14px;
+	text-align: center;
+	color: #00186b;
 }
 
 .command__button {
-  width: 100%;
-  margin: 24px 0 0;
-  padding: 10px 24px;
-  font-weight: 700;
+	width: 100%;
+	margin: 24px 0 0;
+	padding: 10px 24px;
+	font-weight: 700;
 	font-size: 16px;
 	line-height: normal;
 	font-family: "Rubik-Bold", sans-serif;
-  color: #ffffff;
-  background-color: #2747b9;
-  border: none;
-  border-radius: 10px;
-  cursor: pointer;
+	color: #ffffff;
+	background-color: #2747b9;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
 }

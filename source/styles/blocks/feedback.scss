@@ -34,8 +34,8 @@
 }
 
 .feedback__soc-list {
-  display: flex;
-  justify-content: center;
+	display: flex;
+	justify-content: center;
 	margin: 0;
 	padding: 0;
 	list-style: none;
@@ -53,7 +53,7 @@
 	}
 
 	&--mail {
-    margin: 0 35px;
+		margin: 0 35px;
 		background-image: url("../images/email-simbol.svg");
 	}
 

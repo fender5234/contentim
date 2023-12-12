@@ -1,23 +1,23 @@
 .list-title {
-  position: relative;
-  margin: 0 0 24px;
-  font-weight: 700;
+	position: relative;
+	margin: 0 0 24px;
+	font-weight: 700;
 	font-size: 30px;
 	line-height: normal;
 	font-family: "Rubik-Bold", sans-serif;
-  color: #001767;
+	color: #001767;
 
-  &--rewiews {
-    margin: 0;
-  }
+	&--rewiews {
+		margin: 0;
+	}
 
-  &::before {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 4px;
-    width: 25%;
-    height: 2px;
-    background-color: #2747B9;
-  }
+	&::before {
+		content: "";
+		position: absolute;
+		bottom: 0;
+		left: 4px;
+		width: 25%;
+		height: 2px;
+		background-color: #2747b9;
+	}
 }

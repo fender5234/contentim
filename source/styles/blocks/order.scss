@@ -24,7 +24,7 @@
 	font-size: 16px;
 	line-height: 22px;
 	font-family: "Rubik-Regular", sans-serif;
-  background-color: transparent;
+	background-color: transparent;
 	border: 1px solid #2747b9;
 	border-radius: 10px;
 
@@ -33,7 +33,7 @@
 		font-size: 16px;
 		line-height: 22px;
 		font-family: "Rubik-Regular", sans-serif;
-    color: rgba(0, 0, 0, 0.50);
+		color: rgba(0, 0, 0, 0.5);
 	}
 
 	&:focus-visible {
@@ -43,29 +43,29 @@
 }
 
 .order__form-button {
-  margin-bottom: 10px;
-  padding: 10px 24px;
-  font-weight: 700;
+	margin-bottom: 10px;
+	padding: 10px 24px;
+	font-weight: 700;
 	font-size: 16px;
 	line-height: normal;
 	font-family: "Rubik-Bold", sans-serif;
-  color: #ffffff;
-  background-color: #2747b9;
-  border: 1px solid #2747B9;
-  border-radius: 10px;
+	color: #ffffff;
+	background-color: #2747b9;
+	border: 1px solid #2747b9;
+	border-radius: 10px;
 }
 
 .order__link {
-  padding: 10px 24px;
-  font-weight: 700;
+	padding: 10px 24px;
+	font-weight: 700;
 	font-size: 16px;
 	line-height: normal;
 	font-family: "Rubik-Bold", sans-serif;
-  text-decoration: none;
-  text-align: center;
-  color: #2747b9;
-  background-color: transparent;
-  border: 1px solid #2747B9;
-  border-radius: 10px;
-  box-shadow: 0 15px 30px -18px rgba(0, 0, 0, 0.30);
+	text-decoration: none;
+	text-align: center;
+	color: #2747b9;
+	background-color: transparent;
+	border: 1px solid #2747b9;
+	border-radius: 10px;
+	box-shadow: 0 15px 30px -18px rgba(0, 0, 0, 0.3);
 }
