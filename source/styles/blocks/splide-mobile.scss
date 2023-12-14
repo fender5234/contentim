@@ -1,5 +1,5 @@
 .splide-mobile {
-  @include media-desktop {
-    display: none;
-  }
+	@include media-desktop {
+		display: none;
+	}
 }

@@ -1,26 +1,26 @@
 .case-category-link {
-  margin-right: 20px;
+	margin-right: 20px;
 
-  font-size: 18px;
+	font-size: 18px;
 	line-height: normal;
 	font-family: "Rubik-Medium", sans-serif;
-  text-decoration: none;
+	text-decoration: none;
 
-  &:last-of-type {
-    margin: 0;
-  }
+	&:last-of-type {
+		margin: 0;
+	}
 
-  &--active {
-    font-weight: 700;
-    font-family: "Rubik-Bold", sans-serif;
-    color: #2747B9;
-  }
+	&--active {
+		font-weight: 700;
+		font-family: "Rubik-Bold", sans-serif;
+		color: #2747b9;
+	}
 }
 
 .case-category {
-  display: none;
+	display: none;
 
-  @include media-tablet-desktop {
+	@include media-tablet-desktop {
 		display: block;
 	}
 }
