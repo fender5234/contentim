@@ -21,6 +21,10 @@
 	font-family: "Rubik-Bold", sans-serif;
 	text-align: center;
 	color: #ffffff;
+
+	@include media-tablet-desktop {
+		font-size: 60px;
+	}
 }
 
 .feedback__subtext {
@@ -31,6 +35,10 @@
 	font-family: "Rubik-Bold", sans-serif;
 	text-align: center;
 	color: #ffffff;
+
+	@include media-tablet-desktop {
+		font-size: 20px;
+	}
 }
 
 .feedback__soc-list {

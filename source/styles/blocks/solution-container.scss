@@ -4,6 +4,12 @@
 	&:last-child {
 		margin: 0 0 48px;
 	}
+
+	@include media-tablet-desktop {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-column-gap: 10px;
+	}
 }
 
 .solutions-container__text-wrapper {
@@ -20,6 +26,10 @@
 	font-size: 16px;
 	line-height: 125%;
 	font-family: "Rubik-Bold", sans-serif;
+
+	@include media-tablet-desktop {
+		font-size: 20px;
+	}
 }
 
 .solutions-container__list {
@@ -40,4 +50,14 @@
 	font-size: 16px;
 	line-height: 125%;
 	font-family: "Rubik-Regular", sans-serif;
+
+	@include media-tablet-desktop {
+		font-size: 20px;
+	}
+}
+
+.solutions-container {
+	@include media-tablet-desktop {
+		margin-top: 100px;
+	}
 }

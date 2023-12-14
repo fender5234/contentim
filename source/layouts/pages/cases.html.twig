@@ -1,7 +1,7 @@
 {% extends '../main.twig' %}
 {% block main %}
 	<section class="hero">
-		<div class="hero_container hero_container--cases  hero">
+		<div class="hero_container hero_container--cases container">
 			<h2 class="hero_title">
 				Запуск СМИ для Fintech-Маркетплейса
 			</h2>
@@ -51,6 +51,7 @@
 				</p>
 			</div>
 		</div>
+
 		<div class="requirements-container container">
 			<h2 class="list-title">Требования к проекту</h2>
 			<ul class="requirements-container__list">
@@ -76,25 +77,27 @@
 				</li>
 			</ul>
 		</div>
-		<div class="requirements-container container">
-			<h2 class="list-title">Типы контента</h2>
-			<ul class="requirements-container__list">
-				<li>
-					<span class="requirements-container__list-span">✨</span>
-					<p class="requirements-container__list-text">
-						Новостные SЕО-оптимизированные финансовые статьи с нативной интеграцией call-to-action.
-					</p>
-				</li>
-			</ul>
-		</div>
-		<div class="requirements-container container">
-			<h2 class="list-title">Инструменты</h2>
-			<ul class="instruments-list">
-				<li><img src="./images/figma.svg" width="70" height="70" alt="Фото инструмента"></li>
-				<li><img src="./images/note.svg" width="70" height="70" alt="Фото инструмента"></li>
-				<li><img src="./images/document.svg" width="70" height="70" alt="Фото инструмента"></li>
-				<li><img src="./images/telegram-big.svg" width="70" height="70" alt="Фото инструмента"></li>
-			</ul>
+		<div class="desktop-container">
+			<div class="requirements-container requirements-container--grid-one">
+				<h2 class="list-title">Типы контента</h2>
+				<ul class="requirements-container__list requirements-container__list--types-content">
+					<li>
+						<span class="requirements-container__list-span">✨</span>
+						<p class="requirements-container__list-text">
+							Новостные SЕО-оптимизированные финансовые статьи с нативной интеграцией call-to-action.
+						</p>
+					</li>
+				</ul>
+			</div>
+			<div class="requirements-container requirements-container--grid-second">
+				<h2 class="list-title">Инструменты</h2>
+				<ul class="instruments-list">
+					<li><img src="./images/figma.svg" width="70" height="70" alt="Фото инструмента"></li>
+					<li><img src="./images/note.svg" width="70" height="70" alt="Фото инструмента"></li>
+					<li><img src="./images/document.svg" width="70" height="70" alt="Фото инструмента"></li>
+					<li><img src="./images/telegram-big.svg" width="70" height="70" alt="Фото инструмента"></li>
+				</ul>
+			</div>
 		</div>
 		<div class="requirements-container container">
 			<h2 class="list-title">Частота публикаций</h2>

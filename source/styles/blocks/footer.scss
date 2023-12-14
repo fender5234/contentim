@@ -41,3 +41,10 @@
 		background-image: url("../images/tg-white.svg");
 	}
 }
+
+.footer-container {
+	@include media-tablet-desktop {
+		display: flex;
+		justify-content: space-between;
+	}
+}

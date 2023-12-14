@@ -2,6 +2,16 @@
 	margin: 0 0 48px;
 	padding: 0;
 	list-style: none;
+
+	@include media-tablet-desktop {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 10px;
+
+		&--types-content {
+			display: block;
+		}
+	}
 }
 
 .requirements-container__list li {
@@ -11,6 +21,10 @@
 	padding: 12px 24px;
 	background-color: #ffffff;
 	border-radius: 10px;
+
+	@include media-tablet-desktop {
+		margin: 0;
+	}
 }
 
 .requirements-container__list-span {
@@ -19,4 +33,22 @@
 
 .requirements-container__list-text {
 	margin: 0;
+
+	@include media-tablet-desktop {
+		font-size: 20px;
+	}
+}
+
+.requirements-container {
+	@include media-tablet-desktop {
+		margin-top: 100px;
+	}
+
+	&--grid-one {
+		margin: 0;
+	}
+
+	&--grid-second {
+		margin: 0;
+	}
 }

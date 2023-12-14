@@ -2,3 +2,9 @@
 	display: block;
 	align-self: center;
 }
+
+.logo {
+	@include media-tablet-desktop {
+		width: 223px;
+	}
+}

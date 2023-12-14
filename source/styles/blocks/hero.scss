@@ -7,6 +7,10 @@
 	&--about {
 		background-image: url("../images/about-bg-mobile.webp");
 	}
+
+	@include media-tablet-desktop {
+		background-image: url("../images/index-bg.webp");
+	}
 }
 
 .hero_container {
@@ -27,6 +31,12 @@
 	font-family: "Rubik-Bold", sans-serif;
 	text-align: center;
 	color: #ffffff;
+
+	@include media-tablet-desktop {
+		max-width: 550px;
+		font-size: 45px;
+		text-align: left;
+	}
 }
 
 .hero_subtitle {

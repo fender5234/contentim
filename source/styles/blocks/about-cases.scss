@@ -1,3 +1,11 @@
 .about-cases {
 	padding: 24px 15px 48px;
+
+	// @include media-tablet-desktop {
+	// 	padding: 0;
+	// }
+}
+
+.about-cases_container {
+	margin-top: 60px;
 }

@@ -15,6 +15,36 @@
 					<a href="index.html" class="logo-link">
 						<img src="./images/logo.svg" alt="Логотип компании Контентим" class="logo">
 					</a>
+					<nav class="header__nav">
+						<ul class="header__nav-list">
+							<li>
+								<a href="index.html" class="header__nav-link">Читать контент</a>
+							</li>
+							<li>
+								<a href="index.html" class="header__nav-link">Заказать контент</a>
+							</li>
+						</ul>
+
+					</nav>
+					<nav class="header__aside-nav">
+						<ul class="header__aside-nav-list">
+							<li>
+								<a href="mailto:order@contenteam.ru" class="header__aside-nav-link header__aside-nav-link--mail">
+									<span class="visually-hidden">Электронная почта Контентим</span>
+								</a>
+							</li>
+							<li>
+								<a href="https://t.me/native_content" class="header__aside-nav-link header__aside-nav-link--tg">
+									<span class="visually-hidden">Телеграмм Контентим</span>
+								</a>
+							</li>
+							<li>
+								<a href="https://vc.ru/u/595276-contenteam" class="header__aside-nav-link header__aside-nav-link--vc">
+									<span class="visually-hidden">Блог Контентим</span>
+								</a>
+							</li>
+						</ul>
+					</nav>
 					<button class="menu-button" aria-label="Кнопка меню" type="button"></button>
 				</div>
 			</header>
@@ -25,16 +55,18 @@
 		{% block footer %}
 			<footer class="footer">
 				<div class="footer-container container">
-					<a href="index.html" class="footer-logo-link">
-						<img src="./images/logo-white.svg" alt="Логотип компании Контентим" class="footer-logo">
-					</a>
-					<div class="footer-soc-list">
-						<a href="https://www.youtube.com/" class="footer-soc-list-link footer-soc-list-link--fb">
-							<span class="visually-hidden">Ссылка на социальную сеть</span>
+					<div class="footer__desktop-wrapper">
+						<a href="index.html" class="footer-logo-link">
+							<img src="./images/logo-white.svg" alt="Логотип компании Контентим" class="footer-logo">
 						</a>
-						<a href="index.html" class="footer-soc-list-link footer-soc-list-link--tg">
-							<span class="visually-hidden">Ссылка на социальную сеть</span>
-						</a>
+						<div class="footer-soc-list">
+							<a href="https://www.youtube.com/" class="footer-soc-list-link footer-soc-list-link--fb">
+								<span class="visually-hidden">Ссылка на социальную сеть</span>
+							</a>
+							<a href="index.html" class="footer-soc-list-link footer-soc-list-link--tg">
+								<span class="visually-hidden">Ссылка на социальную сеть</span>
+							</a>
+						</div>
 					</div>
 					<form class="form" action="index.html">
 						<h2 class="form_title">Подписаться на рассылку Контентим</h2>
