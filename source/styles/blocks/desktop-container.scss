@@ -1,12 +1,12 @@
 .desktop-container {
-  max-width: 1200px;
-  margin-right: auto;
-  margin-left: auto;
-  
+	max-width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
+
 	@include media-tablet-desktop {
 		display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 5%;
-    margin-top: 100px;
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 5%;
+		margin-top: 100px;
 	}
 }
