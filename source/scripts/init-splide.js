@@ -8,13 +8,33 @@ const initSplide = () => {
 	const caseSplide5 = document.getElementById('case-splide-5');
 	const caseSplide6 = document.getElementById('case-splide-6');
 
+	const caseDesktopSplide1 = document.getElementById('case-splide-desktop-1');
+
+
+
 	if (caseSplide1) {
 		const splide1 = new Splide(caseSplide1, {
 			arrows: false,
 			gap: '15px',
-			pagination: false
+			pagination: false,
+			mediaQuery: 'min',
+			breakpoints: {
+				1023: {
+					destroy: true,
+				},
+			}
 		}).mount();
 	}
+
+
+	if (caseDesktopSplide1) {
+		const splideDesktop1 = new Splide(caseDesktopSplide1, {
+			arrows: true,
+			gap: '15px',
+			pagination: false,
+		}).mount();
+	}
+
 
 	if (caseSplide2) {
 		const splide2 = new Splide(caseSplide2, {

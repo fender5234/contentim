@@ -2,7 +2,7 @@
 {% block main %}
 	<main>
 		<section class="hero">
-			<div class="hero_container hero">
+			<div class="hero_container hero container">
 				<h2 class="hero_title">
 					Контентим
 				</h2>
@@ -16,6 +16,12 @@
 		</section>
 		<section class="cases">
 			<div class="cases_container container">
+				<div class="case-category">
+					<a href="index.html" class="case-category-link case-category-link--active">В трендах</a>
+					<a href="index.html" class="case-category-link">Категория 1</a>
+					<a href="index.html" class="case-category-link">Категория 2</a>
+					<a href="index.html" class="case-category-link">Категория 3</a>
+				</div>
 				<div class="cases_select">
 					<span class="cases_select-span">Выбор категории:</span>
 					<div class="choice-container">
@@ -27,59 +33,207 @@
 						</select>
 					</div>
 				</div>
-				<h2 class="cases_title">
-					Наши-кейсы
-				</h2>
-				<div class="cases_sample">
-					<div class="cases_sapmple-item">
-						<div class="cases_wrapper-image">
-							<span class="cases_sapmple-mark">Кейсы</span>
-							<img src="./images/index-bg-mobile.webp" alt="Фото нашего кейса" class="cases_sapmple-image">
+				<div class="desktop-wrapper">
+					<div class="desktop-wrapper__left-side">
+						<h2 class="cases_title">
+							Наши-кейсы
+						</h2>
+						<div class="cases_sample">
+							<div class="cases_sapmple-item">
+								<div class="cases_wrapper-image">
+									<span class="cases_sapmple-mark">Кейсы</span>
+									<picture>
+										<source srcset="./images/cases-desktop-bg.webp" media="(min-width: 769px)">
+										<img src="./images/index-bg-mobile.webp" alt="Фото нашего кейса" class="cases_sapmple-image">
+									</picture>
+								</div>
+								<h3 class="cases_sapmple-title">Запуск СМИ для FinTech-маркетплейса</h3>
+								<p class="cases_sample-subtitle">Рассмотрим как мы можем настроить внешний вид и какие</p>
+							</div>
 						</div>
-						<h3 class="cases_sapmple-title">Запуск СМИ для FinTech-маркетплейса</h3>
-						<p class="cases_sample-subtitle">Рассмотрим как мы можем настроить внешний вид и какие</p>
 					</div>
-				</div>
-				<div class="splide" id="case-splide-1">
-					<div class="splide__track">
-						<ul class="splide__list">
-							<li class="splide__slide">
-								<div class="cases_sample">
-									<div class="cases_sapmple-item">
-										<div class="cases_wrapper-image">
-											<span class="cases_sapmple-mark">Кейсы</span>
-											<img src="./images/slide-image.webp" alt="Фото нашего кейса" class="cases_sapmple-image">
+					<div class="desktop-wrapper__right-side">
+						<div class="splide splide-mobile" id="case-splide-1">
+							<div class="splide__track">
+								<ul class="splide__list">
+									<li class="splide__slide">
+										<div class="cases_sample">
+											<div class="cases_sapmple-item">
+												<div class="cases_wrapper-image">
+													<span class="cases_sapmple-mark">Кейсы</span>
+													<img src="./images/slide-image.webp" alt="Фото нашего кейса" class="cases_sapmple-image">
+												</div>
+												<h3 class="cases_sapmple-title cases_sapmple-title--slider">Запуск СМИ для FinTech-маркетплейса</h3>
+												<p class="cases_sample-subtitle cases_sample-subtitle--slider">Рассмотрим как мы можем настроить внешний вид и какие</p>
+											</div>
 										</div>
-										<h3 class="cases_sapmple-title cases_sapmple-title--slider">Запуск СМИ для FinTech-маркетплейса</h3>
-										<p class="cases_sample-subtitle cases_sample-subtitle--slider">Рассмотрим как мы можем настроить внешний вид и какие</p>
-									</div>
-								</div>
-							</li>
-							<li class="splide__slide">
-								<div class="cases_sample">
-									<div class="cases_sapmple-item">
-										<div class="cases_wrapper-image">
-											<span class="cases_sapmple-mark">Кейсы</span>
-											<img src="./images/slide-image.webp" alt="Фото нашего кейса" class="cases_sapmple-image">
+									</li>
+									<li class="splide__slide">
+										<div class="cases_sample">
+											<div class="cases_sapmple-item">
+												<div class="cases_wrapper-image">
+													<span class="cases_sapmple-mark">Кейсы</span>
+													<img src="./images/slide-image.webp" alt="Фото нашего кейса" class="cases_sapmple-image">
+												</div>
+												<h3 class="cases_sapmple-title cases_sapmple-title--slider">Запуск СМИ для FinTech-маркетплейса</h3>
+												<p class="cases_sample-subtitle cases_sample-subtitle--slider">Рассмотрим как мы можем настроить внешний вид и какие</p>
+											</div>
 										</div>
-										<h3 class="cases_sapmple-title cases_sapmple-title--slider">Запуск СМИ для FinTech-маркетплейса</h3>
-										<p class="cases_sample-subtitle cases_sample-subtitle--slider">Рассмотрим как мы можем настроить внешний вид и какие</p>
-									</div>
-								</div>
-							</li>
-							<li class="splide__slide">
-								<div class="cases_sample">
-									<div class="cases_sapmple-item">
-										<div class="cases_wrapper-image">
-											<span class="cases_sapmple-mark">Кейсы</span>
-											<img src="./images/slide-image.webp" alt="Фото нашего кейса" class="cases_sapmple-image">
+									</li>
+									<li class="splide__slide">
+										<div class="cases_sample">
+											<div class="cases_sapmple-item">
+												<div class="cases_wrapper-image">
+													<span class="cases_sapmple-mark">Кейсы</span>
+													<img src="./images/slide-image.webp" alt="Фото нашего кейса" class="cases_sapmple-image">
+												</div>
+												<h3 class="cases_sapmple-title cases_sapmple-title--slider">Запуск СМИ для FinTech-маркетплейса</h3>
+												<p class="cases_sample-subtitle cases_sample-subtitle--slider">Рассмотрим как мы можем настроить внешний вид и какие</p>
+											</div>
 										</div>
-										<h3 class="cases_sapmple-title cases_sapmple-title--slider">Запуск СМИ для FinTech-маркетплейса</h3>
-										<p class="cases_sample-subtitle cases_sample-subtitle--slider">Рассмотрим как мы можем настроить внешний вид и какие</p>
-									</div>
-								</div>
-							</li>
-						</ul>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="splide splide-desktop" id="case-splide-desktop-1">
+							<div class="splide__arrows  splide__arrows--desktop"></div>
+							<div class="splide__track">
+								<ul class="splide__list">
+									<li class="splide__slide">
+										<div class="desktop-slide">
+											<div class="cases_sample">
+												<div class="cases_sapmple-item">
+													<div class="cases_wrapper-image">
+														<span class="cases_sapmple-mark">Кейсы</span>
+														<img src="./images/slide-image.webp" alt="Фото нашего кейса" class="cases_sapmple-image cases_sapmple-image--desktop">
+													</div>
+													<h3 class="cases_sapmple-title cases_sapmple-title--slider">Запуск СМИ для FinTech-маркетплейса</h3>
+													<p class="cases_sample-subtitle cases_sample-subtitle--slider">Рассмотрим как мы можем настроить внешний вид и какие</p>
+												</div>
+											</div>
+											<div class="cases_sample">
+												<div class="cases_sapmple-item">
+													<div class="cases_wrapper-image">
+														<span class="cases_sapmple-mark">Кейсы</span>
+														<img src="./images/slide-image.webp" alt="Фото нашего кейса" class="cases_sapmple-image cases_sapmple-image--desktop">
+													</div>
+													<h3 class="cases_sapmple-title cases_sapmple-title--slider">Запуск СМИ для FinTech-маркетплейса</h3>
+													<p class="cases_sample-subtitle cases_sample-subtitle--slider">Рассмотрим как мы можем настроить внешний вид и какие</p>
+												</div>
+											</div>
+											<div class="cases_sample">
+												<div class="cases_sapmple-item">
+													<div class="cases_wrapper-image">
+														<span class="cases_sapmple-mark">Кейсы</span>
+														<img src="./images/slide-image.webp" alt="Фото нашего кейса" class="cases_sapmple-image cases_sapmple-image--desktop">
+													</div>
+													<h3 class="cases_sapmple-title cases_sapmple-title--slider">Запуск СМИ для FinTech-маркетплейса</h3>
+													<p class="cases_sample-subtitle cases_sample-subtitle--slider">Рассмотрим как мы можем настроить внешний вид и какие</p>
+												</div>
+											</div>
+											<div class="cases_sample">
+												<div class="cases_sapmple-item">
+													<div class="cases_wrapper-image">
+														<span class="cases_sapmple-mark">Кейсы</span>
+														<img src="./images/slide-image.webp" alt="Фото нашего кейса" class="cases_sapmple-image cases_sapmple-image--desktop">
+													</div>
+													<h3 class="cases_sapmple-title cases_sapmple-title--slider">Запуск СМИ для FinTech-маркетплейса</h3>
+													<p class="cases_sample-subtitle cases_sample-subtitle--slider">Рассмотрим как мы можем настроить внешний вид и какие</p>
+												</div>
+											</div>
+										</div>
+									</li>
+									<li class="splide__slide">
+										<div class="desktop-slide">
+											<div class="cases_sample">
+												<div class="cases_sapmple-item">
+													<div class="cases_wrapper-image">
+														<span class="cases_sapmple-mark">Кейсы</span>
+														<img src="./images/slide-image.webp" alt="Фото нашего кейса" class="cases_sapmple-image cases_sapmple-image--desktop">
+													</div>
+													<h3 class="cases_sapmple-title cases_sapmple-title--slider">Запуск СМИ для FinTech-маркетплейса</h3>
+													<p class="cases_sample-subtitle cases_sample-subtitle--slider">Рассмотрим как мы можем настроить внешний вид и какие</p>
+												</div>
+											</div>
+											<div class="cases_sample">
+												<div class="cases_sapmple-item">
+													<div class="cases_wrapper-image">
+														<span class="cases_sapmple-mark">Кейсы</span>
+														<img src="./images/slide-image.webp" alt="Фото нашего кейса" class="cases_sapmple-image cases_sapmple-image--desktop">
+													</div>
+													<h3 class="cases_sapmple-title cases_sapmple-title--slider">Запуск СМИ для FinTech-маркетплейса</h3>
+													<p class="cases_sample-subtitle cases_sample-subtitle--slider">Рассмотрим как мы можем настроить внешний вид и какие</p>
+												</div>
+											</div>
+											<div class="cases_sample">
+												<div class="cases_sapmple-item">
+													<div class="cases_wrapper-image">
+														<span class="cases_sapmple-mark">Кейсы</span>
+														<img src="./images/slide-image.webp" alt="Фото нашего кейса" class="cases_sapmple-image cases_sapmple-image--desktop">
+													</div>
+													<h3 class="cases_sapmple-title cases_sapmple-title--slider">Запуск СМИ для FinTech-маркетплейса</h3>
+													<p class="cases_sample-subtitle cases_sample-subtitle--slider">Рассмотрим как мы можем настроить внешний вид и какие</p>
+												</div>
+											</div>
+											<div class="cases_sample">
+												<div class="cases_sapmple-item">
+													<div class="cases_wrapper-image">
+														<span class="cases_sapmple-mark">Кейсы</span>
+														<img src="./images/slide-image.webp" alt="Фото нашего кейса" class="cases_sapmple-image cases_sapmple-image--desktop">
+													</div>
+													<h3 class="cases_sapmple-title cases_sapmple-title--slider">Запуск СМИ для FinTech-маркетплейса</h3>
+													<p class="cases_sample-subtitle cases_sample-subtitle--slider">Рассмотрим как мы можем настроить внешний вид и какие</p>
+												</div>
+											</div>
+										</div>
+									</li>
+									<li class="splide__slide">
+										<div class="desktop-slide">
+											<div class="cases_sample">
+												<div class="cases_sapmple-item">
+													<div class="cases_wrapper-image">
+														<span class="cases_sapmple-mark">Кейсы</span>
+														<img src="./images/slide-image.webp" alt="Фото нашего кейса" class="cases_sapmple-image cases_sapmple-image--desktop">
+													</div>
+													<h3 class="cases_sapmple-title cases_sapmple-title--slider">Запуск СМИ для FinTech-маркетплейса</h3>
+													<p class="cases_sample-subtitle cases_sample-subtitle--slider">Рассмотрим как мы можем настроить внешний вид и какие</p>
+												</div>
+											</div>
+											<div class="cases_sample">
+												<div class="cases_sapmple-item">
+													<div class="cases_wrapper-image">
+														<span class="cases_sapmple-mark">Кейсы</span>
+														<img src="./images/slide-image.webp" alt="Фото нашего кейса" class="cases_sapmple-image cases_sapmple-image--desktop">
+													</div>
+													<h3 class="cases_sapmple-title cases_sapmple-title--slider">Запуск СМИ для FinTech-маркетплейса</h3>
+													<p class="cases_sample-subtitle cases_sample-subtitle--slider">Рассмотрим как мы можем настроить внешний вид и какие</p>
+												</div>
+											</div>
+											<div class="cases_sample">
+												<div class="cases_sapmple-item">
+													<div class="cases_wrapper-image">
+														<span class="cases_sapmple-mark">Кейсы</span>
+														<img src="./images/slide-image.webp" alt="Фото нашего кейса" class="cases_sapmple-image cases_sapmple-image--desktop">
+													</div>
+													<h3 class="cases_sapmple-title cases_sapmple-title--slider">Запуск СМИ для FinTech-маркетплейса</h3>
+													<p class="cases_sample-subtitle cases_sample-subtitle--slider">Рассмотрим как мы можем настроить внешний вид и какие</p>
+												</div>
+											</div>
+											<div class="cases_sample">
+												<div class="cases_sapmple-item">
+													<div class="cases_wrapper-image">
+														<span class="cases_sapmple-mark">Кейсы</span>
+														<img src="./images/slide-image.webp" alt="Фото нашего кейса" class="cases_sapmple-image cases_sapmple-image--desktop">
+													</div>
+													<h3 class="cases_sapmple-title cases_sapmple-title--slider">Запуск СМИ для FinTech-маркетплейса</h3>
+													<p class="cases_sample-subtitle cases_sample-subtitle--slider">Рассмотрим как мы можем настроить внешний вид и какие</p>
+												</div>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>

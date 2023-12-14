@@ -166,6 +166,16 @@
 	bottom: 15px;
 	right: 15px;
 	z-index: 1;
+
+	&--desktop {
+		display: none;
+
+		@include media-desktop {
+			display: flex;
+			top: -60px;
+			right: -10px;
+		}
+	}
 }
 
 #case-splide-3 {
