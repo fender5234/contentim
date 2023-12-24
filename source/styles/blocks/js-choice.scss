@@ -3,7 +3,7 @@
 
 $choices-selector: "choices" !default;
 $choices-font-size-lg: 16px !default;
-$choices-font-size-md: 14px !default;
+$choices-font-size-md: 16px !default;
 $choices-font-size-sm: 12px !default;
 $choices-guttering: 24px !default;
 $choices-border-radius: 2.5px !default;
@@ -104,8 +104,8 @@ $choices-z-index: 1 !default;
 		background-image: url("../images/select-arrow.svg");
 		background-repeat: no-repeat;
 		position: absolute;
-		right: 12px;
-		top: 12px;
+		right: 46px;
+		top: 8px;
 		margin-top: -2.5px;
 		pointer-events: none;
 	}
@@ -190,7 +190,6 @@ $choices-z-index: 1 !default;
 
 .#{$choices-selector}__list--single {
 	display: inline-block;
-	padding: 4px 16px 4px 4px;
 	width: 100%;
 
 	[dir="rtl"] & {
@@ -410,11 +409,8 @@ $choices-z-index: 1 !default;
 }
 
 .choices__item {
-	font-weight: 700;
-	font-size: 14px;
+	font-size: 16px;
 	line-height: 125%;
-	font-family: "Rubik-Bold", sans-serif;
-	color: #2747b9;
 	width: auto;
 	overflow-x: hidden;
 }
@@ -438,4 +434,20 @@ $choices-z-index: 1 !default;
 
 .choices[data-type*="select-one"]::after {
 	margin: 0;
+}
+
+.choices__item[aria-selected="true"] {
+	font-weight: 700;
+	color: #2747b9;
+}
+
+.about-choices .choices__item[aria-selected="true"] {
+	font-weight: 400;
+	font-family: "Rubik-Regular", sans-serif;
+	color: #111111;
+}
+
+.about-choices::after {
+	right: 17px !important;
+	top: 18px !important;
 }

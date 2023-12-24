@@ -3,7 +3,7 @@
 	padding: 0;
 	list-style: none;
 
-	@include media-tablet-desktop {
+	@include media-desktop {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		grid-gap: 10px;
@@ -22,7 +22,7 @@
 	background-color: #ffffff;
 	border-radius: 10px;
 
-	@include media-tablet-desktop {
+	@include media-desktop {
 		margin: 0;
 	}
 }
@@ -34,13 +34,13 @@
 .requirements-container__list-text {
 	margin: 0;
 
-	@include media-tablet-desktop {
+	@include media-desktop {
 		font-size: 20px;
 	}
 }
 
 .requirements-container {
-	@include media-tablet-desktop {
+	@include media-desktop {
 		margin-top: 100px;
 	}
 

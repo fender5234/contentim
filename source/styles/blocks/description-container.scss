@@ -1,5 +1,5 @@
 .description-container {
-	@include media-tablet-desktop {
+	@include media-desktop {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		grid-gap: 0 5%;
@@ -10,7 +10,7 @@
 .descripton-container_item {
 	margin: 0 0 48px;
 
-	@include media-tablet-desktop {
+	@include media-desktop {
 		font-size: 20px;
 	}
 }

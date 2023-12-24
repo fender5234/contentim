@@ -3,15 +3,25 @@
 }
 
 .rewiews-container__text {
+	position: relative;
 	margin: 0 0 24px;
 	padding-top: 25px;
 	font-weight: 400;
 	font-size: 16px;
 	line-height: normal;
 	font-family: "Rubik-Regular", sans-serif;
-	background-image: url("../images/quotes.svg");
-	background-repeat: no-repeat;
-	background-position: 96% 1%;
+
+	&::after {
+		content: "";
+		position: absolute;
+		top: 0;
+		right: 0;
+		z-index: -1;
+		width: 105px;
+		height: 69px;
+		background-image: url("../images/quotes.svg");
+		background-repeat: no-repeat;
+	}
 }
 
 .rewiews-container__author {
@@ -34,7 +44,7 @@
 }
 
 .rewiews-container {
-	@include media-tablet-desktop {
+	@include media-desktop {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		grid-column-gap: 5%;

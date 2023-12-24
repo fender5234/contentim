@@ -1,5 +1,9 @@
 .command {
 	padding: 48px 15px;
+
+	@include media-desktop {
+		padding: 116px 0;
+	}
 }
 
 .command__title {
@@ -9,6 +13,10 @@
 	line-height: normal;
 	font-family: "Rubik-Bold", sans-serif;
 	color: #001767;
+
+	@include media-desktop {
+		font-size: 45px;
+	}
 }
 
 .command__selected-wrapper {
@@ -21,6 +29,10 @@
 	margin: 0;
 	padding: 0;
 	list-style: none;
+
+	@include media-tablet-desktop {
+		grid-template-columns: repeat(4, 1fr);
+	}
 }
 
 .command__image-wrapper {
@@ -30,6 +42,11 @@
 .command__list-image {
 	width: 129px;
 	height: 129px;
+
+	@include media-desktop {
+		width: 222px;
+		height: 222px;
+	}
 }
 
 .command__list li {
@@ -37,6 +54,10 @@
 	flex-direction: column;
 	align-items: center;
 	padding: 10px;
+
+	@include media-desktop {
+		padding: 26px 34px;
+	}
 }
 
 .command__list-name {
@@ -46,6 +67,10 @@
 	line-height: 22px;
 	font-family: "Rubik-Regular", sans-serif;
 	text-align: center;
+
+	@include media-desktop {
+		font-size: 20px;
+	}
 }
 
 .command__list-role {
@@ -67,6 +92,11 @@
 	font-size: 16px;
 	line-height: 22px;
 	font-family: "Rubik-Regular", sans-serif;
+
+	@include media-desktop {
+		display: block;
+		text-align: center;
+	}
 }
 
 .command__text {
@@ -74,6 +104,11 @@
 	font-size: 14px;
 	text-align: center;
 	color: #00186b;
+
+	@include media-desktop {
+		margin: 140px 0 0;
+		font-size: 24px;
+	}
 }
 
 .command__button {
@@ -89,4 +124,8 @@
 	border: none;
 	border-radius: 10px;
 	cursor: pointer;
+
+	@include media-desktop {
+		display: none;
+	}
 }

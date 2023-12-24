@@ -1,5 +1,5 @@
 @mixin media-desktop {
-	@media (min-width: 1023px) {
+	@media (min-width: 1025px) {
 		@content;
 	}
 }
@@ -11,7 +11,7 @@
 }
 
 @mixin media-tablet {
-	@media (max-width: 1199px) {
+	@media (max-width: 1024px) {
 		@media (min-width: 768px) {
 			@content;
 		}

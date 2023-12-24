@@ -22,7 +22,7 @@
 	text-align: center;
 	color: #ffffff;
 
-	@include media-tablet-desktop {
+	@include media-desktop {
 		font-size: 60px;
 	}
 }
@@ -36,7 +36,7 @@
 	text-align: center;
 	color: #ffffff;
 
-	@include media-tablet-desktop {
+	@include media-desktop {
 		font-size: 20px;
 	}
 }

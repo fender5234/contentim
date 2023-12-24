@@ -19,7 +19,7 @@
 	background: #ffffff;
 	border-radius: 10px;
 
-	@include media-tablet-desktop {
+	@include media-desktop {
 		padding: 12px 24px;
 		font-size: 26px;
 	}

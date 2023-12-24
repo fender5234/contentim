@@ -10,10 +10,19 @@
 
 	&--about {
 		background-image: url("../images/about-bg-mobile.webp");
+
+		@include media-desktop {
+			background-image: url("../images/about-bg-desktop.webp");
+		}
 	}
 
 	&--cases {
-		@include media-tablet-desktop {
+
+		@include media-tablet {
+			background-image: url("../images/index-bg.webp");
+		}
+
+		@include media-desktop {
 			background-image: url("../images/index-bg.webp");
 		}
 	}
@@ -28,7 +37,19 @@
 		padding: 110px 30px;
 	}
 
-	@include media-tablet-desktop {
+	@include media-tablet {
+		padding: 50px 30px;
+
+		&--cases {
+			padding: 110px 30px;
+		}
+
+		&--index {
+			padding: 90px 30px 110px;
+		}
+	}
+
+	@include media-desktop {
 		padding: 190px 0;
 	}
 }
@@ -46,6 +67,10 @@
 		max-width: 550px;
 		font-size: 45px;
 		text-align: left;
+
+		&--about {
+			margin: 0 0 30px;
+		}
 	}
 }
 

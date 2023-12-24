@@ -3,6 +3,10 @@
 	padding: 25px 15px 90px;
 	background: #2747b9;
 	border-radius: 4px;
+
+	@include media-desktop {
+		margin: 0;
+	}
 }
 
 .features__item {

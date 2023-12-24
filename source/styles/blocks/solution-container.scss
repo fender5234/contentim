@@ -5,7 +5,7 @@
 		margin: 0 0 48px;
 	}
 
-	@include media-tablet-desktop {
+	@include media-desktop {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		grid-column-gap: 10px;
@@ -17,6 +17,7 @@
 }
 
 .solutions-container__span {
+	flex-shrink: 0;
 	margin-right: 10px;
 }
 
@@ -27,7 +28,7 @@
 	line-height: 125%;
 	font-family: "Rubik-Bold", sans-serif;
 
-	@include media-tablet-desktop {
+	@include media-desktop {
 		font-size: 20px;
 	}
 }
@@ -40,7 +41,7 @@
 
 .solutions-container__list li {
 	display: flex;
-	align-items: baseline;
+	align-items: flex-start;
 	margin: 0 0 24px;
 }
 
@@ -51,13 +52,13 @@
 	line-height: 125%;
 	font-family: "Rubik-Regular", sans-serif;
 
-	@include media-tablet-desktop {
+	@include media-desktop {
 		font-size: 20px;
 	}
 }
 
 .solutions-container {
-	@include media-tablet-desktop {
+	@include media-desktop {
 		margin-top: 100px;
 	}
 }

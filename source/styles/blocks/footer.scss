@@ -26,6 +26,10 @@
 .footer-soc-list {
 	display: flex;
 	justify-content: center;
+
+	@include media-desktop {
+		justify-content: flex-start;
+	}
 }
 
 .footer-soc-list-link {
@@ -43,7 +47,7 @@
 }
 
 .footer-container {
-	@include media-tablet-desktop {
+	@include media-desktop {
 		display: flex;
 		justify-content: space-between;
 	}

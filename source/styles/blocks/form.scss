@@ -1,7 +1,7 @@
 .form {
 	padding: 36px 0;
 
-	@include media-tablet-desktop {
+	@include media-desktop {
 		padding: 0;
 	}
 }

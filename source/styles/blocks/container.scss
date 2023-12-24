@@ -1,5 +1,6 @@
 .container {
-	@include media-tablet-desktop {
+	@include media-desktop {
+		box-sizing: border-box;
 		max-width: 1200px;
 		margin-right: auto;
 		margin-left: auto;

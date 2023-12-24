@@ -4,7 +4,7 @@
 }
 
 .logo {
-	@include media-tablet-desktop {
+	@include media-desktop {
 		width: 223px;
 	}
 }

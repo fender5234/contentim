@@ -7,6 +7,7 @@ const initSplide = () => {
 	const caseSplide4 = document.getElementById('case-splide-4');
 	const caseSplide5 = document.getElementById('case-splide-5');
 	const caseSplide6 = document.getElementById('case-splide-6');
+	const caseSplide7 = document.getElementById('case-splide-7');
 
 	const caseDesktopSplide1 = document.getElementById('case-splide-desktop-1');
 
@@ -16,19 +17,15 @@ const initSplide = () => {
 			gap: '15px',
 			pagination: false,
 			mediaQuery: 'min',
-			breakpoints: {
-				1023: {
-					destroy: true
-				}
-			}
 		}).mount();
 	}
 
 	if (caseDesktopSplide1) {
 		const splideDesktop1 = new Splide(caseDesktopSplide1, {
 			arrows: true,
+			pagination: false,
 			gap: '15px',
-			pagination: false
+			width: '90%'
 		}).mount();
 	}
 
@@ -58,7 +55,7 @@ const initSplide = () => {
 	if (caseSplide5) {
 		const splide5 = new Splide(caseSplide5, {
 			arrows: false,
-			gap: '15px',
+			gap: '50px',
 			pagination: false
 		}).mount();
 
@@ -73,8 +70,8 @@ const initSplide = () => {
 	if (caseSplide6) {
 		const splide6 = new Splide(caseSplide6, {
 			arrows: false,
-			gap: '15px',
-			pagination: false
+			gap: '20px',
+			pagination: false,
 		}).mount();
 
 		const bar = document.querySelector('#carousel-2');

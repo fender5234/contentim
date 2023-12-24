@@ -3,7 +3,7 @@
 	margin-right: auto;
 	margin-left: auto;
 
-	@include media-tablet-desktop {
+	@include media-desktop {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		grid-gap: 5%;

@@ -1,14 +1,8 @@
-.desktop-wrapper {
-	@include media-tablet-desktop {
+.desktop-wrapper__slides {
+
+	@include media-desktop {
 		display: grid;
 		grid-template-columns: 50% 50%;
-		grid-column-gap: 60px;
-		margin-top: 60px;
-	}
-}
-
-.desktop-wrapper__right-side {
-	@include media-tablet-desktop {
-		margin-top: 60px;
+		grid-column-gap: 50px;
 	}
 }

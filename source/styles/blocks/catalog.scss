@@ -1,5 +1,9 @@
 .catalog {
-	padding: 47px 15px;
+	padding: 15px;
+
+	@include media-desktop {
+		padding: 0;
+	}
 }
 
 .catalog__title {
@@ -10,12 +14,21 @@
 	line-height: normal;
 	font-family: "Rubik-Bold", sans-serif;
 	color: #001767;
+
+	@include media-desktop {
+		margin: 0 0 40px;
+		font-size: 45px;
+	}
 }
 
 .catalog__list {
 	margin: 0;
 	padding: 0;
 	list-style: none;
+
+	@include media-desktop {
+		max-width: 600px;
+	}
 }
 
 .catalog__list-item {
@@ -24,6 +37,7 @@
 	padding: 11px 24px;
 	border: 1px solid #1534a1;
 	border-radius: 10px;
+	cursor: pointer;
 
 	&::after {
 		content: "";
@@ -34,6 +48,19 @@
 		height: 20px;
 		background-image: url("../images/accordeon.svg");
 		background-repeat: no-repeat;
+	}
+
+	&--active .catalog__list-item-text-wrapper {
+		height: auto;
+		visibility: visible;
+		transition: all 1s ease-out;
+	}
+
+	&--active .catalog__list-item-text-wrapper p {
+		&:first-child {
+			margin-top: 24px;
+			transition: all 1s ease-out;
+		}
 	}
 }
 
@@ -46,23 +73,16 @@
 }
 
 .catalog__list-item-text-wrapper {
-	display: none;
-
-	&--active {
-		display: block;
-	}
+	height: 0;
+	visibility: hidden;
 }
 
 .catalog__list-item-text {
-	margin: 0 0 10px;
+	margin: 0;
 	font-weight: 400;
 	font-size: 16px;
 	line-height: normal;
 	font-family: "Rubik-Regular", sans-serif;
-
-	&:first-child {
-		margin-top: 24px;
-	}
 }
 
 .catalog__list-button {
@@ -79,6 +99,7 @@
 	border: none;
 	border-radius: 10px;
 	box-shadow: 0 15px 30px -18px rgba(0, 0, 0, 0.3);
+	cursor: pointer;
 }
 
 .catalog__list-link {
@@ -96,4 +117,10 @@
 	border: 1px solid #1534a1;
 	border-radius: 10px;
 	box-shadow: 0 15px 30px -18px rgba(0, 0, 0, 0.3);
+}
+
+.catalog__container {
+	@include media-desktop {
+		padding: 50px 0;
+	}
 }

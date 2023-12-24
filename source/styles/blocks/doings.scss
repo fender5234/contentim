@@ -21,6 +21,10 @@
 	font-family: "Rubik-Bold", sans-serif;
 	text-align: center;
 	color: #ffffff;
+
+	@include media-desktop {
+		font-size: 45px;
+	}
 }
 
 .doings__form-text {
@@ -31,6 +35,10 @@
 	font-family: "Rubik-Regular", sans-serif;
 	text-align: center;
 	color: #ffffff;
+
+	@include media-desktop {
+		font-size: 20px;
+	}
 }
 
 .doings__form-input {
@@ -74,4 +82,23 @@
 	border: none;
 	border-radius: 10px;
 	cursor: pointer;
+}
+
+.doings__form {
+	@include media-desktop {
+		display: flex;
+		justify-content: space-between;
+	}
+}
+
+.doings__form-text-wrapper {
+	@include media-desktop {
+		max-width: 690px;
+	}
+}
+
+.doings__form-inputs-wrapper {
+	@include media-desktop {
+		max-width: 343px;
+	}
 }

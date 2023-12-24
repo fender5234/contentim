@@ -1,0 +1,43 @@
+.video {
+	max-width: 279px;
+  
+  @include media-desktop {
+		max-width: 438px;
+	}
+}
+
+.video-slider__content {
+	position: relative;
+	padding-top: 56.25%;
+}
+
+.video-slider__content iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+  height: 100%;
+	border: none;
+  border-radius: 10px;
+}
+
+.video-slide {
+	max-width: 280px;
+
+  @include media-desktop {
+		max-width: 438px;
+	}
+}
+
+.video__text {
+  margin: 12px 0 0;
+	font-style: italic;
+	font-size: 14px;
+	color: #111111;
+}
+
+.video__text-author {
+  font-weight: 700;
+	line-height: normal;
+	font-family: "Rubik-Bold", sans-serif;
+}

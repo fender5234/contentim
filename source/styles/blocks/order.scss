@@ -1,5 +1,10 @@
 .order {
-	padding: 15px;
+	padding: 25px 15px;
+
+	@include media-desktop {
+		padding: 0;
+		font-size: 45px;
+	}
 }
 
 .order__title {
@@ -10,11 +15,23 @@
 	font-family: "Rubik-Bold", sans-serif;
 	text-align: center;
 	color: #001767;
+
+	@include media-desktop {
+		margin: 0 0 40px;
+		font-size: 45px;
+		text-align: left;
+	}
 }
 
 .order__form {
 	display: flex;
 	flex-direction: column;
+	margin-bottom: 30px;
+
+	@include media-desktop {
+		max-width: 600px;
+		margin: 0;
+	}
 }
 
 .order__form-input {
@@ -53,6 +70,7 @@
 	background-color: #2747b9;
 	border: 1px solid #2747b9;
 	border-radius: 10px;
+	cursor: pointer;
 }
 
 .order__link {
@@ -68,4 +86,17 @@
 	border: 1px solid #2747b9;
 	border-radius: 10px;
 	box-shadow: 0 15px 30px -18px rgba(0, 0, 0, 0.3);
+}
+
+.order__wrapper {
+	@include media-desktop {
+		display: grid;
+		grid-template-columns: 60% 40%;
+	}
+}
+
+.order__container {
+	@include media-desktop {
+		padding: 100px 0 50px;
+	}
 }

@@ -1,5 +1,9 @@
 .clients {
 	padding: 15px;
+
+	@include media-desktop {
+		padding: 116px 0;
+	}
 }
 
 .clients__title {
@@ -9,15 +13,32 @@
 	line-height: normal;
 	font-family: "Rubik-Bold", sans-serif;
 	color: #001767;
+
+	@include media-desktop {
+		margin: 0 0 50px;
+		font-size: 45px;
+	}
 }
 
 .clients__slide-wrapper {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-gap: 12px;
+
+	@include media-desktop {
+		display: flex;
+		gap: 46px;
+	}
 }
 
 .clients__slide-image {
+	width: 100%;
 	border: 1px solid #ced4da;
 	border-radius: 10px;
+}
+
+.clients__slide-wrapper-mobile {
+	@include media-desktop {
+		display: none;
+	}
 }
