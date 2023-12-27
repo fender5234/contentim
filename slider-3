@@ -1,0 +1,63 @@
+	<div class="splide" id="case-splide-3">
+		<div class="splide__track">
+			<ul class="splide__list">
+				<li class="splide__slide">
+					<div class="features">
+						<div class="features__item">
+							<a href="index.html" class="features_item-link">Какие встроенные модули есть в нашей теме</a>
+							<span class="features_item-scope">22.4к</span>
+							<p class="features_item-text">Разберем подробно, какие модули Такие вот дела тут описание статьи сюда вот пойдет</p>
+						</div>
+						<div class="features__item">
+							<a href="index.html" class="features_item-link">Какие встроенные модули есть в нашей теме</a>
+							<span class="features_item-scope">22.4к</span>
+							<p class="features_item-text">Разберем подробно, какие модули Такие вот дела тут описание статьи сюда вот пойдет</p>
+						</div>
+						<div class="features__item">
+							<a href="index.html" class="features_item-link">Какие встроенные модули есть в нашей теме</a>
+							<span class="features_item-scope">22.4к</span>
+							<p class="features_item-text">Разберем подробно, какие модули Такие вот дела тут описание статьи сюда вот пойдет</p>
+						</div>
+					</div>
+				</li>
+				<li class="splide__slide">
+					<div class="features">
+						<div class="features__item">
+							<a href="index.html" class="features_item-link">Какие встроенные модули есть в нашей теме</a>
+							<span class="features_item-scope">22.4к</span>
+							<p class="features_item-text">Разберем подробно, какие модули Такие вот дела тут описание статьи сюда вот пойдет</p>
+						</div>
+						<div class="features__item">
+							<a href="index.html" class="features_item-link">Какие встроенные модули есть в нашей теме</a>
+							<span class="features_item-scope">22.4к</span>
+							<p class="features_item-text">Разберем подробно, какие модули Такие вот дела тут описание статьи сюда вот пойдет</p>
+						</div>
+						<div class="features__item">
+							<a href="index.html" class="features_item-link">Какие встроенные модули есть в нашей теме</a>
+							<span class="features_item-scope">22.4к</span>
+							<p class="features_item-text">Разберем подробно, какие модули Такие вот дела тут описание статьи сюда вот пойдет</p>
+						</div>
+					</div>
+				</li>
+				<li class="splide__slide">
+					<div class="features">
+						<div class="features__item">
+							<a href="index.html" class="features_item-link">Какие встроенные модули есть в нашей теме</a>
+							<span class="features_item-scope">22.4к</span>
+							<p class="features_item-text">Разберем подробно, какие модули Такие вот дела тут описание статьи сюда вот пойдет</p>
+						</div>
+						<div class="features__item">
+							<a href="index.html" class="features_item-link">Какие встроенные модули есть в нашей теме</a>
+							<span class="features_item-scope">22.4к</span>
+							<p class="features_item-text">Разберем подробно, какие модули Такие вот дела тут описание статьи сюда вот пойдет</p>
+						</div>
+						<div class="features__item">
+							<a href="index.html" class="features_item-link">Какие встроенные модули есть в нашей теме</a>
+							<span class="features_item-scope">22.4к</span>
+							<p class="features_item-text">Разберем подробно, какие модули Такие вот дела тут описание статьи сюда вот пойдет</p>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
