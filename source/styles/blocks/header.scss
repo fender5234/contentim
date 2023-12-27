@@ -77,3 +77,11 @@
 		background-image: url("../images/vc.svg");
 	}
 }
+
+.header__aside-nav {
+	display: none;
+
+	@include media-desktop {
+		display: block;
+	}
+}

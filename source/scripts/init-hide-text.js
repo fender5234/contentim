@@ -6,8 +6,25 @@ const initHideText = () => {
 		return;
 	}
 
+	const hideTextElements = hideTextList.querySelectorAll('.cover-wrapper');
+
+	const hidenText = () => {
+		hideTextElements.forEach((textElement) => {
+			textElement.previousElementSibling.classList.remove('catalog__list-item--active');
+		});
+	};
+
 	hideTextList.addEventListener('click', function (evt) {
-		evt.target.closest('.catalog__list-item').classList.toggle('catalog__list-item--active');
+		hideTextElements.forEach((textElement) => {
+			if (evt.target === textElement) {
+				if (textElement.previousElementSibling.classList.contains('catalog__list-item--active')) {
+					hidenText();
+				} else {
+					hidenText();
+					textElement.previousElementSibling.classList.add('catalog__list-item--active');
+				}
+			}
+		});
 	});
 };
 

@@ -15,7 +15,7 @@
 		content: "";
 		position: absolute;
 		top: 0;
-		right: 0;
+		left: 0;
 		z-index: -1;
 		width: 105px;
 		height: 69px;
@@ -49,5 +49,13 @@
 		grid-template-columns: 1fr 1fr;
 		grid-column-gap: 5%;
 		margin-top: 100px;
+	}
+}
+
+.rewiews-container__image {
+	margin-right: 12px;
+
+	@include media-desktop {
+		margin-right: 22px;
 	}
 }

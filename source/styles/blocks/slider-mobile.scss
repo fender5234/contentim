@@ -1,5 +1,5 @@
 .slider-mobile {
-  @include media-desktop {
+	@include media-desktop {
 		display: none;
 	}
 }

@@ -1,5 +1,4 @@
 .features {
-	margin-top: 30px;
 	padding: 25px 15px 90px;
 	background: #2747b9;
 	border-radius: 4px;
@@ -10,8 +9,12 @@
 }
 
 .features__item {
-	padding: 24px 0;
+	padding-bottom: 24px;
 	border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.features__item:not(:first-child) {
+	margin-top: 24px;
 }
 
 .features_item-link {

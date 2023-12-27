@@ -7,8 +7,9 @@
 }
 
 .cases_select {
-	display: flex;
+	display: inline-flex;
 	justify-content: flex-start;
+	align-items: center;
 	margin: 0 0 24px;
 
 	@include media-desktop {
@@ -17,6 +18,7 @@
 }
 
 .cases_select-span {
+	flex-shrink: 0;
 	margin-right: 6px;
 	font-weight: 400;
 	font-size: 14px;
@@ -85,6 +87,7 @@
 }
 
 .cases_sample-subtitle {
+	margin-bottom: 0;
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 125%;
@@ -154,6 +157,7 @@
 
 	@include media-desktop {
 		font-size: 20px;
+		text-align: left;
 	}
 }
 
@@ -180,15 +184,9 @@
 .cases__slider-wrapper {
 	@include media-desktop {
 		display: grid;
-    grid-template-columns: 50% 1fr;
+		grid-template-columns: 50% 1fr;
 		grid-gap: 60px;
-    align-items: flex-start;
-	}
-}
-
-.case-category {
-	@include media-desktop {
-		margin-bottom: 60px;
+		align-items: flex-start;
 	}
 }
 
@@ -196,3 +194,8 @@
 	margin-bottom: 36px;
 }
 
+.cases.category {
+	@include media-desktop {
+		margin-bottom: 60px;
+	}
+}

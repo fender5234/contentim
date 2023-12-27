@@ -2,6 +2,7 @@
 	padding: 36px 0;
 
 	@include media-desktop {
+		max-width: 473px;
 		padding: 0;
 	}
 }
@@ -14,6 +15,10 @@
 	font-family: "Rubik-Bold", sans-serif;
 	text-align: center;
 	color: #ffffff;
+
+	@include media-desktop {
+		text-align: left;
+	}
 }
 
 .form_subtitle {
@@ -24,10 +29,16 @@
 	font-family: "Rubik-Regular", sans-serif;
 	text-align: center;
 	color: #ffffff;
+
+	@include media-desktop {
+		text-align: left;
+	}
 }
 
 .form_input {
 	display: block;
+	box-sizing: border-box;
+	width: 100%;
 	margin: 0 auto 24px;
 	padding: 10px 24px;
 	font-weight: 400;
@@ -50,6 +61,7 @@
 
 .form_button {
 	display: block;
+	width: 100%;
 	margin: 0 auto;
 	padding: 12px 20px;
 	font-weight: 700;
@@ -61,4 +73,29 @@
 	border: none;
 	border-radius: 10px;
 	box-shadow: 0 15px 30px -18px rgba(0, 0, 0, 0.5);
+	cursor: pointer;
+
+	@include media-desktop {
+		width: 100%;
+	}
+}
+
+.form-wrapper-desktop {
+	display: flex;
+	flex-direction: column;
+
+	@include media-desktop {
+		display: flex;
+		flex-direction: row;
+		gap: 24px;
+		align-items: flex-start;
+	}
+}
+
+.form-wrapper-desktop .catalog__list-button,
+.form-wrapper-desktop .catalog__list-link {
+
+	@include media-desktop {
+		margin: 30px 0 0;
+	}
 }

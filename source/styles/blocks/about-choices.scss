@@ -1,32 +1,17 @@
-.about-choices {
-	box-sizing: border-box;
-	width: 100%;
-	margin: 0 0 24px;
-	padding: 12px 17px 3px;
-	font-size: 16px;
-	color: rgba(0, 0, 0, 0.9);
-	border: 1px solid #2747b9;
-	border-radius: 10px;
+// .about-choices {
+// 	box-sizing: border-box;
+// 	width: 100%;
+// 	margin: 0 0 24px;
+// 	padding: 12px 17px 3px;
+// 	font-size: 16px;
+// 	color: rgba(0, 0, 0, 0.9);
+// 	border: 1px solid #2747b9;
+// 	border-radius: 10px;
 
-	&::after {
-		top: 19px;
-	}
-}
-
+// 	&::after {
+// 		top: 19px;
+// 	}
+// }
 .about-choice-container {
 	margin-bottom: 24px;
-}
-
-.about-choices > .choices__list--dropdown {
-	left: 0;
-	font-size: 16px;
-	background-color: #ecf0f3;
-}
-
-.about-choices > .choices__list[aria-expanded] {
-	border: 1px solid #2747b9;
-}
-
-.about-choices .choices__item {
-	color: rgba(0, 0, 0, 0.9);
 }

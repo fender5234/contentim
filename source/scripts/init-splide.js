@@ -17,6 +17,7 @@ const initSplide = () => {
 			gap: '15px',
 			pagination: false,
 			mediaQuery: 'min',
+			fixedWidth: '232px'
 		}).mount();
 	}
 
@@ -33,14 +34,20 @@ const initSplide = () => {
 		const splide2 = new Splide(caseSplide2, {
 			arrows: false,
 			gap: '15px',
-			pagination: false
+			pagination: false,
+			fixedWidth: '232px'
 		}).mount();
 	}
 
 	if (caseSplide3) {
 		const splide3 = new Splide(caseSplide3, {
+			type: 'fade',
 			gap: '15px',
-			pagination: false
+			pagination: false,
+			classes: {
+				// Add classes for arrows.
+				arrows: 'splide-3-arrows'
+			}
 		}).mount();
 	}
 
@@ -48,7 +55,8 @@ const initSplide = () => {
 		const splide4 = new Splide(caseSplide4, {
 			arrows: false,
 			gap: '15px',
-			pagination: false
+			pagination: false,
+			fixedWidth: '232px'
 		}).mount();
 	}
 
@@ -56,30 +64,16 @@ const initSplide = () => {
 		const splide5 = new Splide(caseSplide5, {
 			arrows: false,
 			gap: '50px',
-			pagination: false
+			pagination: true
 		}).mount();
-
-		const bar = document.querySelector('.my-carousel-progress-bar');
-		splide5.on('mounted move', function () {
-			const end = splide5.Components.Controller.getEnd() + 1;
-			const rate = Math.min((splide5.index + 1) / end, 1);
-			bar.style.width = String(100 * rate) + '%';
-		});
 	}
 
 	if (caseSplide6) {
 		const splide6 = new Splide(caseSplide6, {
 			arrows: false,
 			gap: '20px',
-			pagination: false,
+			pagination: true
 		}).mount();
-
-		const bar = document.querySelector('#carousel-2');
-		splide6.on('mounted move', () => {
-			const end = splide6.Components.Controller.getEnd() + 1;
-			const rate = Math.min((splide6.index + 1) / end, 1);
-			bar.style.width = String(100 * rate) + '%';
-		});
 	}
 };
 

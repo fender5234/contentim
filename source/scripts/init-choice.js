@@ -6,10 +6,15 @@ const initChoice = () => {
 	if (select) {
 		const choices = new Choices(select, {
 			allowHTML: true,
-			itemSelectText: " ",
+			itemSelectText: ' ',
 			placeholder: false,
 			searchChoices: false,
-			searchEnabled: false
+			position: 'bottom',
+			searchEnabled: false,
+			classNames: {
+				containerOuter: 'choices choice-main',
+				listDropdown: 'choices__list--dropdown'
+			}
 		});
 	}
 
@@ -17,14 +22,14 @@ const initChoice = () => {
 	if (aboutSelect) {
 		const aboutSelectInit = new Choices(aboutSelect, {
 			allowHTML: true,
-			itemSelectText: " ",
+			itemSelectText: ' ',
 			placeholder: false,
-			position: "bottom",
+			position: 'bottom',
 			searchChoices: false,
 			searchEnabled: false,
 			classNames: {
-				containerOuter: 'choices about-choices',
-				listDropdown: 'choices__list--dropdown',
+				containerOuter: 'choices choices-about',
+				listDropdown: 'choices__list--dropdown'
 			}
 		});
 	}
@@ -33,14 +38,14 @@ const initChoice = () => {
 	if (commandSelect) {
 		const commandSelectInit = new Choices(commandSelect, {
 			allowHTML: true,
-			itemSelectText: " ",
+			itemSelectText: ' ',
 			placeholder: false,
-			position: "bottom",
+			position: 'bottom',
 			searchChoices: false,
 			searchEnabled: false,
 			classNames: {
 				containerOuter: 'choices about-choices',
-				listDropdown: 'choices__list--dropdown',
+				listDropdown: 'choices__list--dropdown'
 			}
 		});
 	}

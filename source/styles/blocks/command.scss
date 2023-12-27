@@ -20,6 +20,8 @@
 }
 
 .command__selected-wrapper {
+	display: flex;
+	align-items: center;
 	margin: 0 0 24px;
 }
 
@@ -41,11 +43,11 @@
 
 .command__list-image {
 	width: 129px;
-	height: 129px;
+	height: auto;
 
 	@include media-desktop {
 		width: 222px;
-		height: 222px;
+		height: auto;
 	}
 }
 
@@ -69,6 +71,7 @@
 	text-align: center;
 
 	@include media-desktop {
+		margin: 0 0 12px;
 		font-size: 20px;
 	}
 }
@@ -106,7 +109,8 @@
 	color: #00186b;
 
 	@include media-desktop {
-		margin: 140px 0 0;
+		max-width: 1130px;
+		margin: 96px 0 0;
 		font-size: 24px;
 	}
 }
@@ -128,4 +132,28 @@
 	@include media-desktop {
 		display: none;
 	}
+}
+
+.command__selected-categories {
+	flex-shrink: 0;
+	margin-right: 6px;
+
+	@include media-desktop {
+		display: none;
+	}
+}
+
+.command-choice-container {
+	display: flex;
+	width: 100%;
+
+	@include media-desktop {
+		display: none;
+	}
+}
+
+.command-js-choice .choices__item[aria-selected="true"] {
+	font-weight: 700;
+	font-family: "Rubik-Bold", sans-serif;
+	color: #2747b9;
 }

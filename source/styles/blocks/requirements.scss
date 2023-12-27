@@ -6,7 +6,7 @@
 	@include media-desktop {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
-		grid-gap: 10px;
+		grid-gap: 20px;
 
 		&--types-content {
 			display: block;
@@ -29,6 +29,11 @@
 
 .requirements-container__list-span {
 	margin-right: 10px;
+
+	@include media-desktop {
+		margin-right: 22px;
+		font-size: 30px;
+	}
 }
 
 .requirements-container__list-text {

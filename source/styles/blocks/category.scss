@@ -1,0 +1,32 @@
+.category-link {
+	margin-right: 20px;
+	font-size: 18px;
+	line-height: normal;
+	font-family: "Rubik-Regular", sans-serif;
+	text-decoration: none;
+	transition: all 0.5s;
+
+	&:last-of-type {
+		margin: 0;
+	}
+
+	&:hover{
+		font-weight: 500;
+		font-family: "Rubik-Medium", sans-serif;
+		color: #2747b9;
+	}
+}
+
+.category {
+	display: none;
+
+	@include media-desktop {
+		display: block;
+	}
+}
+
+.link-active {
+	font-weight: 700;
+	font-family: "Rubik-Bold", sans-serif;
+	color: #2747b9;
+}
